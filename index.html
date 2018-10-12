@@ -3,9 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bem vindo a rede social</title>
   </head>
   <body>
-    
+    <div class="container">
+
+      <article class="register">
+
+        <form class="form-register" method="post">
+          <div class="input-group">
+            <input class="inputTxt-group" type="text" name="name" placeholder="Digite seu nome">
+            <input class="inputTxt-group" type="text" name="lastName" placeholder="Digite seu sobrenome">
+          </div>
+          <div class="input-group-2">
+            <input class="inputTxt-group"type="date" name="age">
+            <select class="inputTxt-group" name="sex">
+              <option for="genre" value="genre" selected>genero</option>
+              <option for="male" value="male">masculino</option>
+              <option for="female" value="female">feminino</option>
+            </select>
+          </div>
+          <div class="input-group-3">
+            <input class="inputTxt" type="email" name="email" placeholder="Digite seu email válido">
+            <input class="inputTxt"type="password" name="password" placeholder="minimo 8 digitos">
+          </div>
+          <input class="inputSBRegister" type="submit" name="register" value="Cadastrar">
+        </form>
+
+      </article>
+
+      <article class="login">
+        <form class="form-login" method="post">
+          <input class="inputTxtLogin" type="email" name="email" placeholder="Digite o email cadastrado">
+          <input class="inputTxtLogin" type="password" name="password" placeholder="senha cadastrada">
+          <input class="inputSBLogin" type="submit" name="login" value="Entrar">
+        </form>
+      </article>
+
+    </div>
   </body>
 </html>
