@@ -1,17 +1,20 @@
 *{margin: 0; padding: 0;}
+@font-face{font-family: "Audiowide-Regular"; src: url(../fonts/audio-wide/Audiowide-Regular.ttf);}
 html{width: 100%; height: 100%; background-image: url(../images/background-index-final.png); background-repeat: no-repeat; background-size: cover;}
-.container{width: 80%; height: 800px; margin-left: 10%; margin-top: 20px; display: flex;}
-.register{width: 60%; height: 800px; background-color: rgba(235, 235, 235, .6); border-right: 1px solid #ccc;}
+.container{width: 80%; height: 800px; margin-left: 10%; margin-top: 70px; display: flex; justify-content: space-between;}
+.register{width: 50%; height: 600px; background-color: rgba(235, 235, 235, .6);}
 .form-register{width:80%; height: 800px; margin-left: 10%; position: relative;}
 .input-group{width: 100%; display: flex; justify-content: space-between; margin-top: 8%; position: absolute;}
 .inputTxt-group{width: 40%; height: 40px; border-radius: 3px; border: none;}
 .input-group-2{width: 100%; display: flex; justify-content: space-between; margin-top: 22%; position: absolute;}
 .input-group-3{width: 100%; margin-top: 28%; position: absolute;}
 .inputTxt{width: 60%; height: 40px; border-radius: 3px; margin-top: 8%; border: none;}
-.login{width: 40%; height: 800px; background-color: rgba(235, 235, 235, .6);}
+.login{width: 30%; height: 400px; background-color: rgba(235, 235, 235, .6);}
 .inputSBRegister{width: 30%; height: 45px; margin-left: 35%; background-color: #21958F; transition: background-color 1s; border: none; margin-top: 65%; color: #ffffff; font-size: 13pt; border-radius: 8px;}
 .inputSBRegister:hover{cursor: pointer; background-color: #12605C;}
 .form-login{width: 80%; height: 400px; margin-left: 10%;}
 .inputTxtLogin{width: 60%; height: 40px; margin-left: 20%; border-radius: 3px; margin-top: 8%; border: none;opacity: 1;}
 .inputSBLogin{width: 40%; height: 45px; margin-left: 30%; background-color: #21958F; border: none; margin-top: 10%; color: #ffffff; font-size: 13pt; border-radius: 8px; transition: background-color 1s;}
 .inputSBLogin:hover{cursor: pointer; background-color: #12605C;}
+.name-website{width: 100%; height: 200px; position: absolute; margin-top: 20%; margin-left: 12%;}
+.name-website p{font-size: 70pt; color: #fff; text-align: center;font-family: "Audiowide-Regular";}
